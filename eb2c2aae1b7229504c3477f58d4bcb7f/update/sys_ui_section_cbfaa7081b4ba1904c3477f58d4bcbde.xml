@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="cbfaa7081b4ba1904c3477f58d4bcbde" sys_domain="global" table="u_triaging_meta_data" version="3" view="certification">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-22 08:20:25</sys_created_on>
+            <sys_id>4bfaa7081b4ba1904c3477f58d4bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_triaging_meta_data" sys_domain="global" view="d62ead22df100100cd7da5f59bf26356">cbfaa7081b4ba1904c3477f58d4bcbde</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-22 08:20:25</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-22 08:20:25</sys_created_on>
+            <sys_id>4ffaa7081b4ba1904c3477f58d4bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_triaging_meta_data" sys_domain="global" view="d62ead22df100100cd7da5f59bf26356">cbfaa7081b4ba1904c3477f58d4bcbde</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-22 08:20:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset_tag</element>
+            <position>2</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-22 08:20:25</sys_created_on>
+            <sys_id>43faa7081b4ba1904c3477f58d4bcbe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_triaging_meta_data" sys_domain="global" view="d62ead22df100100cd7da5f59bf26356">cbfaa7081b4ba1904c3477f58d4bcbde</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-22 08:20:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manufacturer</element>
+            <position>3</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-22 08:20:25</sys_created_on>
+            <sys_id>47faa7081b4ba1904c3477f58d4bcbe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_triaging_meta_data" sys_domain="global" view="d62ead22df100100cd7da5f59bf26356">cbfaa7081b4ba1904c3477f58d4bcbde</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-22 08:20:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset</element>
+            <position>4</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-22 08:20:25</sys_created_on>
+            <sys_id>4bfaa7081b4ba1904c3477f58d4bcbe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_triaging_meta_data" sys_domain="global" view="d62ead22df100100cd7da5f59bf26356">cbfaa7081b4ba1904c3477f58d4bcbde</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-22 08:20:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-22 08:20:25</sys_created_on>
+            <sys_id>4ffaa7081b4ba1904c3477f58d4bcbe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_triaging_meta_data" sys_domain="global" view="d62ead22df100100cd7da5f59bf26356">cbfaa7081b4ba1904c3477f58d4bcbde</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-22 08:20:25</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company</element>
+            <position>6</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-22 08:20:25</sys_created_on>
+            <sys_id>43faa7081b4ba1904c3477f58d4bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_triaging_meta_data" sys_domain="global" view="d62ead22df100100cd7da5f59bf26356">cbfaa7081b4ba1904c3477f58d4bcbde</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-22 08:20:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>serial_number</element>
+            <position>7</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-22 08:20:25</sys_created_on>
+            <sys_id>47faa7081b4ba1904c3477f58d4bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_triaging_meta_data" sys_domain="global" view="d62ead22df100100cd7da5f59bf26356">cbfaa7081b4ba1904c3477f58d4bcbde</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-22 08:20:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>model_id</element>
+            <position>8</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-22 08:20:25</sys_created_on>
+            <sys_id>4bfaa7081b4ba1904c3477f58d4bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_triaging_meta_data" sys_domain="global" view="d62ead22df100100cd7da5f59bf26356">cbfaa7081b4ba1904c3477f58d4bcbde</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-22 08:20:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>9</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-22 08:20:25</sys_created_on>
+            <sys_id>4ffaa7081b4ba1904c3477f58d4bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_triaging_meta_data" sys_domain="global" view="d62ead22df100100cd7da5f59bf26356">cbfaa7081b4ba1904c3477f58d4bcbde</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-22 08:20:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-22 08:20:25</sys_created_on>
+            <sys_id>43faa7081b4ba1904c3477f58d4bcbe2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_triaging_meta_data" sys_domain="global" view="d62ead22df100100cd7da5f59bf26356">cbfaa7081b4ba1904c3477f58d4bcbde</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-22 08:20:25</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>u_triaging_meta_data</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-22 08:20:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cbfaa7081b4ba1904c3477f58d4bcbde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_triaging_meta_data</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+            <sys_update_name>sys_ui_section_cbfaa7081b4ba1904c3477f58d4bcbde</sys_update_name>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-22 08:20:24</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Compliance" name="certification">d62ead22df100100cd7da5f59bf26356</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

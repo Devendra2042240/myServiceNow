@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="21f3d4df1b7ee950fd68631abc4bcbe6" label="Remediation Rules Run Time Data​" max_length="40" name="u_remediation_rules_run_time_data" type="collection">
+        <element label="Applied On" max_length="40" name="u_applied_on" type="string"/>
+        <element label="Corrective Action 1" max_length="40" name="u_corrective_action_1" type="string"/>
+        <element label="Impacted CI" max_length="40" name="u_impacted_ci" type="string"/>
+    </element>
+</database>

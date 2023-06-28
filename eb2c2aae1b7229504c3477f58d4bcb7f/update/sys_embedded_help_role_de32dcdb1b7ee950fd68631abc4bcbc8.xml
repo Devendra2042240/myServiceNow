@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="u_correlation_rules_user" name="u_correlation_rules_user">0e321cdb1b7ee950fd68631abc4bcb39</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-05-19 08:37:55</sys_created_on>
+        <sys_id>de32dcdb1b7ee950fd68631abc4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0e321cdb1b7ee950fd68631abc4bcb39</sys_name>
+        <sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name>sys_embedded_help_role_de32dcdb1b7ee950fd68631abc4bcbc8</sys_update_name>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-05-19 08:37:55</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

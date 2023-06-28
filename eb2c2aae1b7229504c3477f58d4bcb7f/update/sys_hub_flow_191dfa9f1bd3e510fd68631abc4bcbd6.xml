@@ -1,0 +1,1564 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>5bad0d6d1bdae5104c3477f58d4bcba3</copied_from>
+        <copied_from_name>Design and Assign CPE at Custome</copied_from_name>
+        <description/>
+        <internal_name>design_and_assign_cpe_at_customer_site</internal_name>
+        <label_cache>[{"name":"subflow.change_task_request.location","label":"Input➛Change Task Request➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"change_task","column_name":"location"},{"name":"subflow.change_task_request.location.city","label":"Input➛Change Task Request➛Location➛City","reference":"","reference_display":"City","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"city"},{"name":"7ffbd7d9-6394-4134-89a4-28dd306bb6f0.record.name","label":"3 - Create Record➛Telco equipment Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_ci_ni_telco_equipment","column_name":"name"},{"name":"7ffbd7d9-6394-4134-89a4-28dd306bb6f0.record","label":"3 - Create Record➛Telco equipment Record","reference":"cmdb_ci_ni_telco_equipment","reference_display":"Telco equipment","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"91d8127d-7361-4a52-8254-03ad43e37e2e.record","label":"1 - Create Record➛Network Site Record","reference":"cmdb_ci_ni_site","reference_display":"Network Site","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.product_order.location.country","label":"Input➛Product Order➛Location➛Country","reference":"","reference_display":"Country","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"country"},{"name":"subflow.product_order.location","label":"Input➛Product Order➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"sn_ind_tmt_orm_product_order","column_name":"location"},{"name":"subflow.change_request.location.country","label":"Input➛Change Request➛Location➛Country","reference":"","reference_display":"Country","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"country"},{"name":"subflow.change_request.location","label":"Input➛Change Request➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"change_request","column_name":"location"},{"name":"subflow.change_request.location.city","label":"Input➛Change Request➛Location➛City","reference":"","reference_display":"City","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"city"},{"name":"2fe1522c-4b2f-40cf-ab24-4102435b6a03.record","label":"1 - Create Record➛Network Site Record","reference":"cmdb_ci_ni_site","reference_display":"Network Site","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2fe1522c-4b2f-40cf-ab24-4102435b6a03.record.name","label":"1 - Create Record➛Network Site Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_ci_ni_site","column_name":"name"},{"name":"subflow.change_task_request","label":"Input➛Change Task Request","reference":"change_task","reference_display":"Change Task","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"d6206b39-b036-4e88-b01f-1acb8c75978a","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.change_task_request.location.country","label":"Input➛Change Task Request➛Location➛Country","reference":"","reference_display":"Country","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"country"},{"name":"f2a75b94-e4cf-4df7-8687-34f4f38d77a3.record","label":"2 - Create Record➛Telco equipment holder Record","reference":"cmdb_ci_ni_equipment_holder","reference_display":"Telco equipment holder","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7b598d3d-1887-49c5-9211-fd08197ff190.record","label":"4 - Create Record➛Network Interface Record","reference":"cmdb_ci_ni_interface","reference_display":"Network Interface","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>1c4d36df1bd3e510fd68631abc4bcbb3</master_snapshot>
+        <name>Design and Assign CPE at Customer Site</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>191dfa9f1bd3e510fd68631abc4bcbd6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Design and Assign CPE at Customer Site</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name>sys_hub_flow_191dfa9f1bd3e510fd68631abc4bcbd6</sys_update_name>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:37</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=191dfa9f1bd3e510fd68631abc4bcbd6"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=191dfa9f1bd3e510fd68631abc4bcbd6"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=191dfa9f1bd3e510fd68631abc4bcbd6"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=191dfa9f1bd3e510fd68631abc4bcbd6^sys_idNOT IN191dfa9f1bd3e510fd68631abc4bcbd7"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>191dfa9f1bd3e510fd68631abc4bcbd6</id>
+        <name>Design and Assign CPE at Customer Site</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:48</sys_created_on>
+        <sys_id>191dfa9f1bd3e510fd68631abc4bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:48</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=191dfa9f1bd3e510fd68631abc4bcbd7"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=191dfa9f1bd3e510fd68631abc4bcbd6^sys_idNOT IN511dfa9f1bd3e510fd68631abc4bcbe0"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=d6206b39-b036-4e88-b01f-1acb8c75978a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>change_task</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>change_task_request</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Change Task Request</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Design and Assign CPE at Customer Site">191dfa9f1bd3e510fd68631abc4bcbd6</model>
+        <model_id>191dfa9f1bd3e510fd68631abc4bcbd6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_191dfa9f1bd3e510fd68631abc4bcbd6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="change_task">change_task</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:48</sys_created_on>
+        <sys_id>511dfa9f1bd3e510fd68631abc4bcbe0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=191dfa9f1bd3e510fd68631abc4bcbd6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=191dfa9f1bd3e510fd68631abc4bcbd6"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=191dfa9f1bd3e510fd68631abc4bcbd6^sys_idNOT IN211d3e9f1bd3e510fd68631abc4bcb06,2d1d3e9f1bd3e510fd68631abc4bcb20,691d3e9f1bd3e510fd68631abc4bcb26,991d3e9f1bd3e510fd68631abc4bcb00,991dfa9f1bd3e510fd68631abc4bcbf9,a11d3e9f1bd3e510fd68631abc4bcb12,a51d3e9f1bd3e510fd68631abc4bcb0b,e91d3e9f1bd3e510fd68631abc4bcb19"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Design and Assign CPE at Customer Site">191dfa9f1bd3e510fd68631abc4bcbd6</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:49</sys_created_on>
+        <sys_id>211d3e9f1bd3e510fd68631abc4bcb06</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:37</sys_updated_on>
+        <ui_id>7ffbd7d9-6394-4134-89a4-28dd306bb6f0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=211d3e9f1bd3e510fd68631abc4bcb06"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>211d3e9f1bd3e510fd68631abc4bcb06</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:49</sys_created_on>
+        <sys_id>251d3e9f1bd3e510fd68631abc4bcb07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:49</sys_updated_on>
+        <value>cmdb_ci_ni_telco_equipment</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=211d3e9f1bd3e510fd68631abc4bcb06"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>211d3e9f1bd3e510fd68631abc4bcb06</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:49</sys_created_on>
+        <sys_id>ed1d3e9f1bd3e510fd68631abc4bcb06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>211d3e9f1bd3e510fd68631abc4bcb06</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:49</sys_created_on>
+        <sys_id>a11d3e9f1bd3e510fd68631abc4bcb07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>name=Cisco Mux^model_id={"display":"Cisco MUX","value":"9c6451891bda25104c3477f58d4bcb3c","table":"sn_ni_core_interface_card_product_model","sys_id":"9c6451891bda25104c3477f58d4bcb3c"}^manufacturer={"display":"Cisco","value":"b7e831bdc0a80169015ae101f3c4d6cd","table":"core_company","sys_id":"b7e831bdc0a80169015ae101f3c4d6cd"}^life_cycle_stage={"display":"Operational","value":"53584655b7620010ee0d3177ee11a97f","sys_id":"53584655b7620010ee0d3177ee11a97f"}^life_cycle_stage_status={"display":"In Use","value":"e4990295b7620010ee0d3177ee11a9db","sys_id":"e4990295b7620010ee0d3177ee11a9db"}^network_domain=telco^network_site={{subflow.change_task_request.location.city}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=211d3e9f1bd3e510fd68631abc4bcb06"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=211d3e9f1bd3e510fd68631abc4bcb06"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create CI Relationship">551bd2c053b011105042ddeeff7b12ed</action_type>
+        <action_type_parent display_value="Create CI Relationship">8dc8520053b011105042ddeeff7b12b3</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Design and Assign CPE at Customer Site">191dfa9f1bd3e510fd68631abc4bcbd6</flow>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:50</sys_created_on>
+        <sys_id>2d1d3e9f1bd3e510fd68631abc4bcb20</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:37</sys_updated_on>
+        <ui_id>b222b1da-560e-4a4d-aeed-4bf1c4f3c8ef</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2d1d3e9f1bd3e510fd68631abc4bcb20"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2d1d3e9f1bd3e510fd68631abc4bcb20</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:50</sys_created_on>
+        <sys_id>651d3e9f1bd3e510fd68631abc4bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:50</sys_updated_on>
+        <value>55c95bf6c0a8010e0118ec7056ebc54d</value>
+        <variable display_value="Relationship Type">3cbe6822534111105042ddeeff7b1234</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2d1d3e9f1bd3e510fd68631abc4bcb20"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>child</field>
+        <id>2d1d3e9f1bd3e510fd68631abc4bcb20</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:50</sys_created_on>
+        <sys_id>e11d3e9f1bd3e510fd68631abc4bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_551bd2c053b011105042ddeeff7b12ed</table>
+        <value>{{7b598d3d-1887-49c5-9211-fd08197ff190.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>parent</field>
+        <id>2d1d3e9f1bd3e510fd68631abc4bcb20</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:50</sys_created_on>
+        <sys_id>6d1d3e9f1bd3e510fd68631abc4bcb21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_551bd2c053b011105042ddeeff7b12ed</table>
+        <value>{{7ffbd7d9-6394-4134-89a4-28dd306bb6f0.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>type</field>
+        <id>2d1d3e9f1bd3e510fd68631abc4bcb20</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:50</sys_created_on>
+        <sys_id>211d3e9f1bd3e510fd68631abc4bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_551bd2c053b011105042ddeeff7b12ed</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2d1d3e9f1bd3e510fd68631abc4bcb20"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2d1d3e9f1bd3e510fd68631abc4bcb20"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Design and Assign CPE at Customer Site">191dfa9f1bd3e510fd68631abc4bcbd6</flow>
+        <order>8</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:50</sys_created_on>
+        <sys_id>691d3e9f1bd3e510fd68631abc4bcb26</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:37</sys_updated_on>
+        <ui_id>976e1997-94ae-497a-9129-3cf8e7e54577</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=691d3e9f1bd3e510fd68631abc4bcb26"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>691d3e9f1bd3e510fd68631abc4bcb26</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:50</sys_created_on>
+        <sys_id>691d3e9f1bd3e510fd68631abc4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:50</sys_updated_on>
+        <value>change_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>691d3e9f1bd3e510fd68631abc4bcb26</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:50</sys_created_on>
+        <sys_id>a51d3e9f1bd3e510fd68631abc4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:50</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=691d3e9f1bd3e510fd68631abc4bcb26"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>691d3e9f1bd3e510fd68631abc4bcb26</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:50</sys_created_on>
+        <sys_id>251d3e9f1bd3e510fd68631abc4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.change_task_request}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>691d3e9f1bd3e510fd68631abc4bcb26</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:50</sys_created_on>
+        <sys_id>ad1d3e9f1bd3e510fd68631abc4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>691d3e9f1bd3e510fd68631abc4bcb26</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:50</sys_created_on>
+        <sys_id>611d3e9f1bd3e510fd68631abc4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=691d3e9f1bd3e510fd68631abc4bcb26"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=691d3e9f1bd3e510fd68631abc4bcb26"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Design and Assign CPE at Customer Site">191dfa9f1bd3e510fd68631abc4bcbd6</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:49</sys_created_on>
+        <sys_id>991d3e9f1bd3e510fd68631abc4bcb00</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:37</sys_updated_on>
+        <ui_id>f2a75b94-e4cf-4df7-8687-34f4f38d77a3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=991d3e9f1bd3e510fd68631abc4bcb00"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>991d3e9f1bd3e510fd68631abc4bcb00</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:49</sys_created_on>
+        <sys_id>9d1d3e9f1bd3e510fd68631abc4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:49</sys_updated_on>
+        <value>cmdb_ci_ni_equipment_holder</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=991d3e9f1bd3e510fd68631abc4bcb00"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>991d3e9f1bd3e510fd68631abc4bcb00</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:49</sys_created_on>
+        <sys_id>591d3e9f1bd3e510fd68631abc4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>991d3e9f1bd3e510fd68631abc4bcb00</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:49</sys_created_on>
+        <sys_id>1d1d3e9f1bd3e510fd68631abc4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>name=USA/Rack/G0/1^life_cycle_stage={"display":"Operational","value":"53584655b7620010ee0d3177ee11a97f","sys_id":"53584655b7620010ee0d3177ee11a97f"}^life_cycle_stage_status={"display":"In Use","value":"e4990295b7620010ee0d3177ee11a9db","sys_id":"e4990295b7620010ee0d3177ee11a9db"}^model_id={"display":"Generic Rack","value":"b63b1a1587c24110e14f64e73cbb35d6","table":"sn_ni_core_equipment_holder_product_model","sys_id":"b63b1a1587c24110e14f64e73cbb35d6"}^container_type=rack^network_domain=telco^network_site={{subflow.change_task_request.location.city}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=991d3e9f1bd3e510fd68631abc4bcb00"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=991d3e9f1bd3e510fd68631abc4bcb00"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Design and Assign CPE at Customer Site">191dfa9f1bd3e510fd68631abc4bcbd6</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:49</sys_created_on>
+        <sys_id>991dfa9f1bd3e510fd68631abc4bcbf9</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:37</sys_updated_on>
+        <ui_id>2fe1522c-4b2f-40cf-ab24-4102435b6a03</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=991dfa9f1bd3e510fd68631abc4bcbf9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>991dfa9f1bd3e510fd68631abc4bcbf9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:49</sys_created_on>
+        <sys_id>511dfa9f1bd3e510fd68631abc4bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:49</sys_updated_on>
+        <value>cmdb_ci_ni_site</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=991dfa9f1bd3e510fd68631abc4bcbf9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>991dfa9f1bd3e510fd68631abc4bcbf9</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:49</sys_created_on>
+        <sys_id>191dfa9f1bd3e510fd68631abc4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>991dfa9f1bd3e510fd68631abc4bcbf9</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:49</sys_created_on>
+        <sys_id>dd1dfa9f1bd3e510fd68631abc4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>name={{subflow.change_task_request.location.city}}^location={{subflow.change_task_request.location}}^life_cycle_stage={"display":"Inventory","value":"53484655b7620010ee0d3177ee11a97c","sys_id":"53484655b7620010ee0d3177ee11a97c"}^life_cycle_stage_status={"display":"Available","value":"0919ca55b7620010ee0d3177ee11a9db","sys_id":"0919ca55b7620010ee0d3177ee11a9db"}^network_domain=telco</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=991dfa9f1bd3e510fd68631abc4bcbf9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=991dfa9f1bd3e510fd68631abc4bcbf9"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create CI Relationship">551bd2c053b011105042ddeeff7b12ed</action_type>
+        <action_type_parent display_value="Create CI Relationship">8dc8520053b011105042ddeeff7b12b3</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Design and Assign CPE at Customer Site">191dfa9f1bd3e510fd68631abc4bcbd6</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:49</sys_created_on>
+        <sys_id>a11d3e9f1bd3e510fd68631abc4bcb12</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:37</sys_updated_on>
+        <ui_id>add76f45-7aa2-418d-9b47-63ab798aefcc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a11d3e9f1bd3e510fd68631abc4bcb12"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a11d3e9f1bd3e510fd68631abc4bcb12</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:49</sys_created_on>
+        <sys_id>611d3e9f1bd3e510fd68631abc4bcb14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:49</sys_updated_on>
+        <value>55c95bf6c0a8010e0118ec7056ebc54d</value>
+        <variable display_value="Relationship Type">3cbe6822534111105042ddeeff7b1234</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a11d3e9f1bd3e510fd68631abc4bcb12"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>child</field>
+        <id>a11d3e9f1bd3e510fd68631abc4bcb12</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:49</sys_created_on>
+        <sys_id>ed1d3e9f1bd3e510fd68631abc4bcb13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_551bd2c053b011105042ddeeff7b12ed</table>
+        <value>{{f2a75b94-e4cf-4df7-8687-34f4f38d77a3.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>parent</field>
+        <id>a11d3e9f1bd3e510fd68631abc4bcb12</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:49</sys_created_on>
+        <sys_id>691d3e9f1bd3e510fd68631abc4bcb13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_551bd2c053b011105042ddeeff7b12ed</table>
+        <value>{{2fe1522c-4b2f-40cf-ab24-4102435b6a03.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>type</field>
+        <id>a11d3e9f1bd3e510fd68631abc4bcb12</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:49</sys_created_on>
+        <sys_id>2d1d3e9f1bd3e510fd68631abc4bcb13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_551bd2c053b011105042ddeeff7b12ed</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a11d3e9f1bd3e510fd68631abc4bcb12"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a11d3e9f1bd3e510fd68631abc4bcb12"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Design and Assign CPE at Customer Site">191dfa9f1bd3e510fd68631abc4bcbd6</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:49</sys_created_on>
+        <sys_id>a51d3e9f1bd3e510fd68631abc4bcb0b</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:37</sys_updated_on>
+        <ui_id>7b598d3d-1887-49c5-9211-fd08197ff190</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a51d3e9f1bd3e510fd68631abc4bcb0b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a51d3e9f1bd3e510fd68631abc4bcb0b</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:49</sys_created_on>
+        <sys_id>a91d3e9f1bd3e510fd68631abc4bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:49</sys_updated_on>
+        <value>cmdb_ci_ni_interface</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a51d3e9f1bd3e510fd68631abc4bcb0b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a51d3e9f1bd3e510fd68631abc4bcb0b</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:49</sys_created_on>
+        <sys_id>651d3e9f1bd3e510fd68631abc4bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a51d3e9f1bd3e510fd68631abc4bcb0b</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:49</sys_created_on>
+        <sys_id>291d3e9f1bd3e510fd68631abc4bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>name=Eth0/1^life_cycle_stage={"display":"Operational","value":"53584655b7620010ee0d3177ee11a97f","sys_id":"53584655b7620010ee0d3177ee11a97f"}^life_cycle_stage_status={"display":"In Use","value":"e4990295b7620010ee0d3177ee11a9db","sys_id":"e4990295b7620010ee0d3177ee11a9db"}^telco_equipment={{7ffbd7d9-6394-4134-89a4-28dd306bb6f0.record.name}}^connector_type=rj45^port_type=ethernet^directionality=tx/rx^port_bandwidth={"display":"10Gbps","value":"ff39ae92eb900110700ca73bc152286d","sys_id":"ff39ae92eb900110700ca73bc152286d"}^network_domain=telco^network_site={{subflow.change_task_request.location.city}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a51d3e9f1bd3e510fd68631abc4bcb0b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a51d3e9f1bd3e510fd68631abc4bcb0b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create CI Relationship">551bd2c053b011105042ddeeff7b12ed</action_type>
+        <action_type_parent display_value="Create CI Relationship">8dc8520053b011105042ddeeff7b12b3</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Design and Assign CPE at Customer Site">191dfa9f1bd3e510fd68631abc4bcbd6</flow>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:50</sys_created_on>
+        <sys_id>e91d3e9f1bd3e510fd68631abc4bcb19</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:37</sys_updated_on>
+        <ui_id>c8bbd2e6-a0de-44da-a0d7-c0d95a6e9227</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e91d3e9f1bd3e510fd68631abc4bcb19"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e91d3e9f1bd3e510fd68631abc4bcb19</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:50</sys_created_on>
+        <sys_id>251d3e9f1bd3e510fd68631abc4bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:50</sys_updated_on>
+        <value>55c95bf6c0a8010e0118ec7056ebc54d</value>
+        <variable display_value="Relationship Type">3cbe6822534111105042ddeeff7b1234</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e91d3e9f1bd3e510fd68631abc4bcb19"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>child</field>
+        <id>e91d3e9f1bd3e510fd68631abc4bcb19</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:50</sys_created_on>
+        <sys_id>a11d3e9f1bd3e510fd68631abc4bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_551bd2c053b011105042ddeeff7b12ed</table>
+        <value>{{7ffbd7d9-6394-4134-89a4-28dd306bb6f0.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>parent</field>
+        <id>e91d3e9f1bd3e510fd68631abc4bcb19</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:50</sys_created_on>
+        <sys_id>2d1d3e9f1bd3e510fd68631abc4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_551bd2c053b011105042ddeeff7b12ed</table>
+        <value>{{f2a75b94-e4cf-4df7-8687-34f4f38d77a3.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>type</field>
+        <id>e91d3e9f1bd3e510fd68631abc4bcb19</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:50</sys_created_on>
+        <sys_id>ed1d3e9f1bd3e510fd68631abc4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_551bd2c053b011105042ddeeff7b12ed</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e91d3e9f1bd3e510fd68631abc4bcb19"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e91d3e9f1bd3e510fd68631abc4bcb19"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=191dfa9f1bd3e510fd68631abc4bcbd6"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=191dfa9f1bd3e510fd68631abc4bcbd6"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=191dfa9f1bd3e510fd68631abc4bcbd6"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=191dfa9f1bd3e510fd68631abc4bcbd6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_191dfa9f1bd3e510fd68631abc4bcbd6^sys_idNOT INdd1dfa9f1bd3e510fd68631abc4bcbe5"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>change_task_request</element>
+        <help/>
+        <hint/>
+        <label>Change Task Request</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_191dfa9f1bd3e510fd68631abc4bcbd6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:35:49</sys_created_on>
+        <sys_id>dd1dfa9f1bd3e510fd68631abc4bcbe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:35:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_191dfa9f1bd3e510fd68631abc4bcbd6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_191dfa9f1bd3e510fd68631abc4bcbd6"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_191dfa9f1bd3e510fd68631abc4bcbd6"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=191dfa9f1bd3e510fd68631abc4bcbd6"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=191dfa9f1bd3e510fd68631abc4bcbd6^sys_idNOT IN0a3db2df1bd3e510fd68631abc4bcb24"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@84a063</plan>
+        <plan_id display_value="Design and Assign CPE at Customer Site">191dfa9f1bd3e510fd68631abc4bcbd6</plan_id>
+        <snapshot>1c4d36df1bd3e510fd68631abc4bcbb3</snapshot>
+        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0a3db2df1bd3e510fd68631abc4bcb24</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:37</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>5bad0d6d1bdae5104c3477f58d4bcba3</copied_from>
+        <copied_from_name/>
+        <description/>
+        <internal_name>design_and_assign_cpe_at_customer_site</internal_name>
+        <label_cache>[{"name":"subflow.change_task_request.location","label":"Input➛Change Task Request➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"change_task","column_name":"location"},{"name":"subflow.change_task_request.location.city","label":"Input➛Change Task Request➛Location➛City","reference":"","reference_display":"City","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"city"},{"name":"7ffbd7d9-6394-4134-89a4-28dd306bb6f0.record.name","label":"3 - Create Record➛Telco equipment Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_ci_ni_telco_equipment","column_name":"name"},{"name":"7ffbd7d9-6394-4134-89a4-28dd306bb6f0.record","label":"3 - Create Record➛Telco equipment Record","reference":"cmdb_ci_ni_telco_equipment","reference_display":"Telco equipment","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"91d8127d-7361-4a52-8254-03ad43e37e2e.record","label":"1 - Create Record➛Network Site Record","reference":"cmdb_ci_ni_site","reference_display":"Network Site","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.product_order.location.country","label":"Input➛Product Order➛Location➛Country","reference":"","reference_display":"Country","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"country"},{"name":"subflow.product_order.location","label":"Input➛Product Order➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"sn_ind_tmt_orm_product_order","column_name":"location"},{"name":"subflow.change_request.location.country","label":"Input➛Change Request➛Location➛Country","reference":"","reference_display":"Country","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"country"},{"name":"subflow.change_request.location","label":"Input➛Change Request➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"change_request","column_name":"location"},{"name":"subflow.change_request.location.city","label":"Input➛Change Request➛Location➛City","reference":"","reference_display":"City","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"city"},{"name":"2fe1522c-4b2f-40cf-ab24-4102435b6a03.record","label":"1 - Create Record➛Network Site Record","reference":"cmdb_ci_ni_site","reference_display":"Network Site","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2fe1522c-4b2f-40cf-ab24-4102435b6a03.record.name","label":"1 - Create Record➛Network Site Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_ci_ni_site","column_name":"name"},{"name":"subflow.change_task_request","label":"Input➛Change Task Request","reference":"change_task","reference_display":"Change Task","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"d6206b39-b036-4e88-b01f-1acb8c75978a","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.change_task_request.location.country","label":"Input➛Change Task Request➛Location➛Country","reference":"","reference_display":"Country","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"country"},{"name":"f2a75b94-e4cf-4df7-8687-34f4f38d77a3.record","label":"2 - Create Record➛Telco equipment holder Record","reference":"cmdb_ci_ni_equipment_holder","reference_display":"Telco equipment holder","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7b598d3d-1887-49c5-9211-fd08197ff190.record","label":"4 - Create Record➛Network Interface Record","reference":"cmdb_ci_ni_interface","reference_display":"Network Interface","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Design and Assign CPE at Customer Site</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Design and Assign CPE at Customer Site">191dfa9f1bd3e510fd68631abc4bcbd6</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>1c4d36df1bd3e510fd68631abc4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:34</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=1c4d36df1bd3e510fd68631abc4bcbb3"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=1c4d36df1bd3e510fd68631abc4bcbb3"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=1c4d36df1bd3e510fd68631abc4bcbb3"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=1c4d36df1bd3e510fd68631abc4bcbb3^sys_idNOT IN184d36df1bd3e510fd68631abc4bcbb4"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>1c4d36df1bd3e510fd68631abc4bcbb3</id>
+        <name>Design and Assign CPE at Customer Site</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:34</sys_created_on>
+        <sys_id>184d36df1bd3e510fd68631abc4bcbb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:34</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=184d36df1bd3e510fd68631abc4bcbb4"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=1c4d36df1bd3e510fd68631abc4bcbb3^sys_idNOT IN984d36df1bd3e510fd68631abc4bcbb5"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=d6206b39-b036-4e88-b01f-1acb8c75978a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>change_task</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>change_task_request</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Change Task Request</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Design and Assign CPE at Customer Site">1c4d36df1bd3e510fd68631abc4bcbb3</model>
+        <model_id>1c4d36df1bd3e510fd68631abc4bcbb3</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_1c4d36df1bd3e510fd68631abc4bcbb3</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="change_task">change_task</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:34</sys_created_on>
+        <sys_id>984d36df1bd3e510fd68631abc4bcbb5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=1c4d36df1bd3e510fd68631abc4bcbb3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1c4d36df1bd3e510fd68631abc4bcbb3"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=1c4d36df1bd3e510fd68631abc4bcbb3^sys_idNOT IN284d76df1bd3e510fd68631abc4bcb25,284d76df1bd3e510fd68631abc4bcb33,704d76df1bd3e510fd68631abc4bcb4e,784d76df1bd3e510fd68631abc4bcb3a,7c4d76df1bd3e510fd68631abc4bcb55,a04d36df1bd3e510fd68631abc4bcbd0,a04d76df1bd3e510fd68631abc4bcb20,ac4d76df1bd3e510fd68631abc4bcb2a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Design and Assign CPE at Customer Site">1c4d36df1bd3e510fd68631abc4bcbb3</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>284d76df1bd3e510fd68631abc4bcb25</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <ui_id>7ffbd7d9-6394-4134-89a4-28dd306bb6f0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=284d76df1bd3e510fd68631abc4bcb25"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>284d76df1bd3e510fd68631abc4bcb25</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>2c4d76df1bd3e510fd68631abc4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <value>cmdb_ci_ni_telco_equipment</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=284d76df1bd3e510fd68631abc4bcb25"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>284d76df1bd3e510fd68631abc4bcb25</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>e44d76df1bd3e510fd68631abc4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>284d76df1bd3e510fd68631abc4bcb25</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>a84d76df1bd3e510fd68631abc4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>name=Cisco Mux^model_id={"display":"Cisco MUX","value":"9c6451891bda25104c3477f58d4bcb3c","table":"sn_ni_core_interface_card_product_model","sys_id":"9c6451891bda25104c3477f58d4bcb3c"}^manufacturer={"display":"Cisco","value":"b7e831bdc0a80169015ae101f3c4d6cd","table":"core_company","sys_id":"b7e831bdc0a80169015ae101f3c4d6cd"}^life_cycle_stage={"display":"Operational","value":"53584655b7620010ee0d3177ee11a97f","sys_id":"53584655b7620010ee0d3177ee11a97f"}^life_cycle_stage_status={"display":"In Use","value":"e4990295b7620010ee0d3177ee11a9db","sys_id":"e4990295b7620010ee0d3177ee11a9db"}^network_domain=telco^network_site={{subflow.change_task_request.location.city}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=284d76df1bd3e510fd68631abc4bcb25"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=284d76df1bd3e510fd68631abc4bcb25"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create CI Relationship">551bd2c053b011105042ddeeff7b12ed</action_type>
+        <action_type_parent display_value="Create CI Relationship">8dc8520053b011105042ddeeff7b12b3</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Design and Assign CPE at Customer Site">1c4d36df1bd3e510fd68631abc4bcbb3</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>284d76df1bd3e510fd68631abc4bcb33</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <ui_id>add76f45-7aa2-418d-9b47-63ab798aefcc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=284d76df1bd3e510fd68631abc4bcb33"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>284d76df1bd3e510fd68631abc4bcb33</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>604d76df1bd3e510fd68631abc4bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <value>55c95bf6c0a8010e0118ec7056ebc54d</value>
+        <variable display_value="Relationship Type">3cbe6822534111105042ddeeff7b1234</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=284d76df1bd3e510fd68631abc4bcb33"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>child</field>
+        <id>284d76df1bd3e510fd68631abc4bcb33</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>ec4d76df1bd3e510fd68631abc4bcb34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_551bd2c053b011105042ddeeff7b12ed</table>
+        <value>{{f2a75b94-e4cf-4df7-8687-34f4f38d77a3.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>parent</field>
+        <id>284d76df1bd3e510fd68631abc4bcb33</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>684d76df1bd3e510fd68631abc4bcb34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_551bd2c053b011105042ddeeff7b12ed</table>
+        <value>{{2fe1522c-4b2f-40cf-ab24-4102435b6a03.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>type</field>
+        <id>284d76df1bd3e510fd68631abc4bcb33</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>2c4d76df1bd3e510fd68631abc4bcb34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_551bd2c053b011105042ddeeff7b12ed</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=284d76df1bd3e510fd68631abc4bcb33"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=284d76df1bd3e510fd68631abc4bcb33"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create CI Relationship">551bd2c053b011105042ddeeff7b12ed</action_type>
+        <action_type_parent display_value="Create CI Relationship">8dc8520053b011105042ddeeff7b12b3</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Design and Assign CPE at Customer Site">1c4d36df1bd3e510fd68631abc4bcbb3</flow>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>704d76df1bd3e510fd68631abc4bcb4e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <ui_id>b222b1da-560e-4a4d-aeed-4bf1c4f3c8ef</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=704d76df1bd3e510fd68631abc4bcb4e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>704d76df1bd3e510fd68631abc4bcb4e</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:36</sys_created_on>
+        <sys_id>b84d76df1bd3e510fd68631abc4bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:36</sys_updated_on>
+        <value>55c95bf6c0a8010e0118ec7056ebc54d</value>
+        <variable display_value="Relationship Type">3cbe6822534111105042ddeeff7b1234</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=704d76df1bd3e510fd68631abc4bcb4e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>child</field>
+        <id>704d76df1bd3e510fd68631abc4bcb4e</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:36</sys_created_on>
+        <sys_id>384d76df1bd3e510fd68631abc4bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_551bd2c053b011105042ddeeff7b12ed</table>
+        <value>{{7b598d3d-1887-49c5-9211-fd08197ff190.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>parent</field>
+        <id>704d76df1bd3e510fd68631abc4bcb4e</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>b04d76df1bd3e510fd68631abc4bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_551bd2c053b011105042ddeeff7b12ed</table>
+        <value>{{7ffbd7d9-6394-4134-89a4-28dd306bb6f0.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>type</field>
+        <id>704d76df1bd3e510fd68631abc4bcb4e</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>744d76df1bd3e510fd68631abc4bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_551bd2c053b011105042ddeeff7b12ed</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=704d76df1bd3e510fd68631abc4bcb4e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=704d76df1bd3e510fd68631abc4bcb4e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create CI Relationship">551bd2c053b011105042ddeeff7b12ed</action_type>
+        <action_type_parent display_value="Create CI Relationship">8dc8520053b011105042ddeeff7b12b3</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Design and Assign CPE at Customer Site">1c4d36df1bd3e510fd68631abc4bcbb3</flow>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>784d76df1bd3e510fd68631abc4bcb3a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <ui_id>c8bbd2e6-a0de-44da-a0d7-c0d95a6e9227</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=784d76df1bd3e510fd68631abc4bcb3a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>784d76df1bd3e510fd68631abc4bcb3a</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>b04d76df1bd3e510fd68631abc4bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <value>55c95bf6c0a8010e0118ec7056ebc54d</value>
+        <variable display_value="Relationship Type">3cbe6822534111105042ddeeff7b1234</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=784d76df1bd3e510fd68631abc4bcb3a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>child</field>
+        <id>784d76df1bd3e510fd68631abc4bcb3a</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>304d76df1bd3e510fd68631abc4bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_551bd2c053b011105042ddeeff7b12ed</table>
+        <value>{{7ffbd7d9-6394-4134-89a4-28dd306bb6f0.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>parent</field>
+        <id>784d76df1bd3e510fd68631abc4bcb3a</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>b84d76df1bd3e510fd68631abc4bcb3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_551bd2c053b011105042ddeeff7b12ed</table>
+        <value>{{f2a75b94-e4cf-4df7-8687-34f4f38d77a3.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>type</field>
+        <id>784d76df1bd3e510fd68631abc4bcb3a</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>7c4d76df1bd3e510fd68631abc4bcb3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_551bd2c053b011105042ddeeff7b12ed</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=784d76df1bd3e510fd68631abc4bcb3a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=784d76df1bd3e510fd68631abc4bcb3a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Design and Assign CPE at Customer Site">1c4d36df1bd3e510fd68631abc4bcbb3</flow>
+        <order>8</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:36</sys_created_on>
+        <sys_id>7c4d76df1bd3e510fd68631abc4bcb55</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:36</sys_updated_on>
+        <ui_id>976e1997-94ae-497a-9129-3cf8e7e54577</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7c4d76df1bd3e510fd68631abc4bcb55"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7c4d76df1bd3e510fd68631abc4bcb55</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:36</sys_created_on>
+        <sys_id>784d76df1bd3e510fd68631abc4bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:36</sys_updated_on>
+        <value>change_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7c4d76df1bd3e510fd68631abc4bcb55</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:36</sys_created_on>
+        <sys_id>b44d76df1bd3e510fd68631abc4bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:36</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7c4d76df1bd3e510fd68631abc4bcb55"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>7c4d76df1bd3e510fd68631abc4bcb55</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:36</sys_created_on>
+        <sys_id>344d76df1bd3e510fd68631abc4bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.change_task_request}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>7c4d76df1bd3e510fd68631abc4bcb55</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:36</sys_created_on>
+        <sys_id>bc4d76df1bd3e510fd68631abc4bcb56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>7c4d76df1bd3e510fd68631abc4bcb55</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:36</sys_created_on>
+        <sys_id>704d76df1bd3e510fd68631abc4bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7c4d76df1bd3e510fd68631abc4bcb55"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7c4d76df1bd3e510fd68631abc4bcb55"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Design and Assign CPE at Customer Site">1c4d36df1bd3e510fd68631abc4bcbb3</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>a04d36df1bd3e510fd68631abc4bcbd0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <ui_id>2fe1522c-4b2f-40cf-ab24-4102435b6a03</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a04d36df1bd3e510fd68631abc4bcbd0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a04d36df1bd3e510fd68631abc4bcbd0</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>204d76df1bd3e510fd68631abc4bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <value>cmdb_ci_ni_site</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a04d36df1bd3e510fd68631abc4bcbd0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a04d36df1bd3e510fd68631abc4bcbd0</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>e84d76df1bd3e510fd68631abc4bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a04d36df1bd3e510fd68631abc4bcbd0</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>ac4d76df1bd3e510fd68631abc4bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>name={{subflow.change_task_request.location.city}}^location={{subflow.change_task_request.location}}^life_cycle_stage={"display":"Inventory","value":"53484655b7620010ee0d3177ee11a97c","sys_id":"53484655b7620010ee0d3177ee11a97c"}^life_cycle_stage_status={"display":"Available","value":"0919ca55b7620010ee0d3177ee11a9db","sys_id":"0919ca55b7620010ee0d3177ee11a9db"}^network_domain=telco</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a04d36df1bd3e510fd68631abc4bcbd0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a04d36df1bd3e510fd68631abc4bcbd0"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Design and Assign CPE at Customer Site">1c4d36df1bd3e510fd68631abc4bcbb3</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>a04d76df1bd3e510fd68631abc4bcb20</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <ui_id>f2a75b94-e4cf-4df7-8687-34f4f38d77a3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a04d76df1bd3e510fd68631abc4bcb20"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a04d76df1bd3e510fd68631abc4bcb20</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>a44d76df1bd3e510fd68631abc4bcb21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <value>cmdb_ci_ni_equipment_holder</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a04d76df1bd3e510fd68631abc4bcb20"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a04d76df1bd3e510fd68631abc4bcb20</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>604d76df1bd3e510fd68631abc4bcb21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a04d76df1bd3e510fd68631abc4bcb20</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>244d76df1bd3e510fd68631abc4bcb21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>name=USA/Rack/G0/1^life_cycle_stage={"display":"Operational","value":"53584655b7620010ee0d3177ee11a97f","sys_id":"53584655b7620010ee0d3177ee11a97f"}^life_cycle_stage_status={"display":"In Use","value":"e4990295b7620010ee0d3177ee11a9db","sys_id":"e4990295b7620010ee0d3177ee11a9db"}^model_id={"display":"Generic Rack","value":"b63b1a1587c24110e14f64e73cbb35d6","table":"sn_ni_core_equipment_holder_product_model","sys_id":"b63b1a1587c24110e14f64e73cbb35d6"}^container_type=rack^network_domain=telco^network_site={{subflow.change_task_request.location.city}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a04d76df1bd3e510fd68631abc4bcb20"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a04d76df1bd3e510fd68631abc4bcb20"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Design and Assign CPE at Customer Site">1c4d36df1bd3e510fd68631abc4bcbb3</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>ac4d76df1bd3e510fd68631abc4bcb2a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <ui_id>7b598d3d-1887-49c5-9211-fd08197ff190</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ac4d76df1bd3e510fd68631abc4bcb2a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ac4d76df1bd3e510fd68631abc4bcb2a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>a04d76df1bd3e510fd68631abc4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <value>cmdb_ci_ni_interface</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ac4d76df1bd3e510fd68631abc4bcb2a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>ac4d76df1bd3e510fd68631abc4bcb2a</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>6c4d76df1bd3e510fd68631abc4bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>ac4d76df1bd3e510fd68631abc4bcb2a</id>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:35</sys_created_on>
+        <sys_id>204d76df1bd3e510fd68631abc4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>name=Eth0/1^life_cycle_stage={"display":"Operational","value":"53584655b7620010ee0d3177ee11a97f","sys_id":"53584655b7620010ee0d3177ee11a97f"}^life_cycle_stage_status={"display":"In Use","value":"e4990295b7620010ee0d3177ee11a9db","sys_id":"e4990295b7620010ee0d3177ee11a9db"}^telco_equipment={{7ffbd7d9-6394-4134-89a4-28dd306bb6f0.record.name}}^connector_type=rj45^port_type=ethernet^directionality=tx/rx^port_bandwidth={"display":"10Gbps","value":"ff39ae92eb900110700ca73bc152286d","sys_id":"ff39ae92eb900110700ca73bc152286d"}^network_domain=telco^network_site={{subflow.change_task_request.location.city}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ac4d76df1bd3e510fd68631abc4bcb2a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ac4d76df1bd3e510fd68631abc4bcb2a"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=1c4d36df1bd3e510fd68631abc4bcbb3"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=1c4d36df1bd3e510fd68631abc4bcbb3"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=1c4d36df1bd3e510fd68631abc4bcbb3"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=1c4d36df1bd3e510fd68631abc4bcbb3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_1c4d36df1bd3e510fd68631abc4bcbb3^sys_idNOT INa04d36df1bd3e510fd68631abc4bcbc4"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>change_task_request</element>
+        <help/>
+        <hint/>
+        <label>Change Task Request</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1c4d36df1bd3e510fd68631abc4bcbb3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-13 17:36:34</sys_created_on>
+        <sys_id>a04d36df1bd3e510fd68631abc4bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-13 17:36:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_1c4d36df1bd3e510fd68631abc4bcbb3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_1c4d36df1bd3e510fd68631abc4bcbb3"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_1c4d36df1bd3e510fd68631abc4bcbb3"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>191dfa9f1bd3e510fd68631abc4bcbd6</sys_id>
+        <latest_snapshot>1c4d36df1bd3e510fd68631abc4bcbb3</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch7a-03-27-2023_04-04-2023_1511.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>

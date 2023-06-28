@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-tokyo-07-08-2022__patch7b-04-20-2023_05-15-2023_1941.zip</compiler_build>
+        <copied_from>8ce8992a1b276d504c3477f58d4bcb8e</copied_from>
+        <copied_from_name>Equipment FalloutWorkflow</copied_from_name>
+        <description/>
+        <internal_name>equipment_falloutworkflow</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Fallout Record","reference":"sn_fallout_mgmt_fallout","reference_display":"Fallout","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Equipment FalloutWorkflow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-06-28 13:33:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>23751f481bff6990fd68631abc4bcb18</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Equipment FalloutWorkflow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name>sys_hub_flow_23751f481bff6990fd68631abc4bcb18</sys_update_name>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-06-28 13:35:25</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=23751f481bff6990fd68631abc4bcb18"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=23751f481bff6990fd68631abc4bcb18^sys_idNOT IN4c851f481bff6990fd68631abc4bcb62"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Equipment FalloutWorkflow">23751f481bff6990fd68631abc4bcb18</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-06-28 13:33:38</sys_created_on>
+        <sys_id>4c851f481bff6990fd68631abc4bcb62</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-06-28 13:35:25</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4c851f481bff6990fd68631abc4bcb62"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>4c851f481bff6990fd68631abc4bcb62</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-06-28 13:33:38</sys_created_on>
+        <sys_id>8c851f481bff6990fd68631abc4bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-06-28 13:33:38</sys_updated_on>
+        <value>sn_fallout_mgmt_fallout</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>4c851f481bff6990fd68631abc4bcb62</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-06-28 13:33:38</sys_created_on>
+        <sys_id>c8851f481bff6990fd68631abc4bcb63</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-06-28 13:35:25</sys_updated_on>
+        <value>fallout_type=d9a079e31b1ee5504c3477f58d4bcbb9</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=23751f481bff6990fd68631abc4bcb18"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=23751f481bff6990fd68631abc4bcb18^sys_idNOT INaf751f481bff6990fd68631abc4bcb18"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>23751f481bff6990fd68631abc4bcb18</id>
+        <name>Equipment FalloutWorkflow</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-06-28 13:33:36</sys_created_on>
+        <sys_id>af751f481bff6990fd68631abc4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-06-28 13:33:36</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=af751f481bff6990fd68631abc4bcb18"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=23751f481bff6990fd68631abc4bcb18^sys_idNOT INbf751f481bff6990fd68631abc4bcb26,e7751f481bff6990fd68631abc4bcb22"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Equipment FalloutWorkflow">23751f481bff6990fd68631abc4bcb18</model>
+        <model_id>23751f481bff6990fd68631abc4bcb18</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_23751f481bff6990fd68631abc4bcb18</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-06-28 13:33:37</sys_created_on>
+        <sys_id>bf751f481bff6990fd68631abc4bcb26</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-06-28 13:35:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Equipment FalloutWorkflow">23751f481bff6990fd68631abc4bcb18</model>
+        <model_id>23751f481bff6990fd68631abc4bcb18</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_23751f481bff6990fd68631abc4bcb18</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-06-28 13:33:36</sys_created_on>
+        <sys_id>e7751f481bff6990fd68631abc4bcb22</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-06-28 13:35:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=23751f481bff6990fd68631abc4bcb18"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=23751f481bff6990fd68631abc4bcb18"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=23751f481bff6990fd68631abc4bcb18^sys_idNOT IN0c851f481bff6990fd68631abc4bcb5e,bf751f481bff6990fd68631abc4bcb54"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Equipment FalloutWorkflow">23751f481bff6990fd68631abc4bcb18</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-06-28 13:33:38</sys_created_on>
+        <sys_id>0c851f481bff6990fd68631abc4bcb5e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-06-28 13:35:25</sys_updated_on>
+        <ui_id>cc12a342-9598-4214-85ae-8a0fe2f5391e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0c851f481bff6990fd68631abc4bcb5e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0c851f481bff6990fd68631abc4bcb5e</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-06-28 13:33:38</sys_created_on>
+        <sys_id>04851f481bff6990fd68631abc4bcb62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-06-28 13:33:38</sys_updated_on>
+        <value>Automated_Fallout_Trigger</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0c851f481bff6990fd68631abc4bcb5e</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-06-28 13:33:38</sys_created_on>
+        <sys_id>40851f481bff6990fd68631abc4bcb62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-06-28 13:33:38</sys_updated_on>
+        <value>&lt;p&gt;This is a Testing Email for Automated Fallout Workflow.        (&lt;span style="background-color: rgba(0, 0, 0, 0); color: #000048; font-family: Arial, Arial_EmbeddedFont, Arial_MSFontService, sans-serif; font-size: 12pt; font-variant-ligatures: no-common-ligatures no-discretionary-ligatures no-historical-ligatures no-contextual; text-align: center; -webkit-text-fill-color: #000048; -webkit-text-stroke-color: #000048; caret-color: #000048;"&gt;Equipment Faulty)&lt;/span&gt;&lt;/p&gt;</value>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0c851f481bff6990fd68631abc4bcb5e</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-06-28 13:33:38</sys_created_on>
+        <sys_id>8c851f481bff6990fd68631abc4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-06-28 13:33:38</sys_updated_on>
+        <value>abhishek.jaiswal5@cognizant.com</value>
+        <variable display_value="BCC">1d806bf4a70323008299b39f087901e6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0c851f481bff6990fd68631abc4bcb5e</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-06-28 13:33:38</sys_created_on>
+        <sys_id>c4851f481bff6990fd68631abc4bcb62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-06-28 13:33:38</sys_updated_on>
+        <value>saurabh.kumar22f918@cognizant.com</value>
+        <variable display_value="CC">d9806bf4a70323008299b39f087901e0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0c851f481bff6990fd68631abc4bcb5e</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-06-28 13:33:38</sys_created_on>
+        <sys_id>c8851f481bff6990fd68631abc4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-06-28 13:33:38</sys_updated_on>
+        <value>devendra.kumar3@cognizant.com</value>
+        <variable display_value="To">59806bf4a70323008299b39f087901da</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb^id=0c851f481bff6990fd68631abc4bcb5e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0c851f481bff6990fd68631abc4bcb5e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0c851f481bff6990fd68631abc4bcb5e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Equipment FalloutWorkflow">23751f481bff6990fd68631abc4bcb18</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-06-28 13:33:38</sys_created_on>
+        <sys_id>bf751f481bff6990fd68631abc4bcb54</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-06-28 13:35:25</sys_updated_on>
+        <ui_id>5065ef6a-c44a-487d-8379-739b43415a44</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bf751f481bff6990fd68631abc4bcb54"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bf751f481bff6990fd68631abc4bcb54</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-06-28 13:33:38</sys_created_on>
+        <sys_id>80851f481bff6990fd68631abc4bcb58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-06-28 13:33:38</sys_updated_on>
+        <value>sn_fallout_mgmt_fallout</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bf751f481bff6990fd68631abc4bcb54</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-06-28 13:33:38</sys_created_on>
+        <sys_id>88851f481bff6990fd68631abc4bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-06-28 13:33:38</sys_updated_on>
+        <value>priority=-3^assignment_group={"display":"Order Fulfillment Managers ","value":"1382661fc38020105252716b7d40dd6b","sys_id":"1382661fc38020105252716b7d40dd6b"}</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bf751f481bff6990fd68631abc4bcb54"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>bf751f481bff6990fd68631abc4bcb54</id>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-06-28 13:33:38</sys_created_on>
+        <sys_id>08851f481bff6990fd68631abc4bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-06-28 13:33:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>bf751f481bff6990fd68631abc4bcb54</id>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-06-28 13:33:38</sys_created_on>
+        <sys_id>8c851f481bff6990fd68631abc4bcb56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-06-28 13:33:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>bf751f481bff6990fd68631abc4bcb54</id>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-06-28 13:33:38</sys_created_on>
+        <sys_id>44851f481bff6990fd68631abc4bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-06-28 13:33:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bf751f481bff6990fd68631abc4bcb54"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bf751f481bff6990fd68631abc4bcb54"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=23751f481bff6990fd68631abc4bcb18"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=23751f481bff6990fd68631abc4bcb18"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=23751f481bff6990fd68631abc4bcb18"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=23751f481bff6990fd68631abc4bcb18"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_23751f481bff6990fd68631abc4bcb18^sys_idNOT INb3751f481bff6990fd68631abc4bcb29,ff751f481bff6990fd68631abc4bcb25"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_23751f481bff6990fd68631abc4bcb18</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-06-28 13:33:37</sys_created_on>
+        <sys_id>b3751f481bff6990fd68631abc4bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-06-28 13:33:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_23751f481bff6990fd68631abc4bcb18</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-06-28 13:33:37</sys_created_on>
+        <sys_id>ff751f481bff6990fd68631abc4bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-06-28 13:33:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_23751f481bff6990fd68631abc4bcb18"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_23751f481bff6990fd68631abc4bcb18"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_23751f481bff6990fd68631abc4bcb18"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=23751f481bff6990fd68631abc4bcb18"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=23751f481bff6990fd68631abc4bcb18"/>
+</record_update>

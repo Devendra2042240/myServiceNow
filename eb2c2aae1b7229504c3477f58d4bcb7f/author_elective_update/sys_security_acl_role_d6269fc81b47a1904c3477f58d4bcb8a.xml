@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-05-22 06:49:25</sys_created_on>
+        <sys_id>d6269fc81b47a1904c3477f58d4bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_triazin_meta_data.admin</sys_name>
+        <sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_security_acl display_value="u_triazin_meta_data">8a269fc81b47a1904c3477f58d4bcb52</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d6269fc81b47a1904c3477f58d4bcb8a</sys_update_name>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-05-22 06:49:25</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</application>
+        <file_path/>
+        <instance_id>878a1230dbb4c78c7e55d5b0cf9619b3</instance_id>
+        <instance_name>cognizantdemo8</instance_name>
+        <name>sys_security_acl_role_d6269fc81b47a1904c3477f58d4bcb8a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>2211540</sys_created_by><sys_created_on>2023-05-22 06:49:25</sys_created_on><sys_id>d6269fc81b47a1904c3477f58d4bcb8a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_triazin_meta_data.admin</sys_name><sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package><sys_policy/><sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope><sys_security_acl display_value="u_triazin_meta_data">8a269fc81b47a1904c3477f58d4bcb52</sys_security_acl><sys_update_name>sys_security_acl_role_d6269fc81b47a1904c3477f58d4bcb8a</sys_update_name><sys_updated_by>2211540</sys_updated_by><sys_updated_on>2023-05-22 06:49:25</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-319640075</payload_hash>
+        <record_name>u_triazin_meta_data.admin</record_name>
+        <reverted_from/>
+        <source>7971ae3cdb700300ce095cb3dc9619c2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-05-22 06:49:26</sys_created_on>
+        <sys_id>9e269fc81b47a1904c3477f58d4bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18842384d780000001</sys_recorded_at>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-05-22 06:49:26</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>96269fc81647a190f1846126c1c1078e</update_guid>
+        <update_guid_history>96269fc81647a190f1846126c1c1078e:-319640075</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2023-05-22 00:17:26">2c9c1f881b87a1904c3477f58d4bcbd9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-05-22 07:17:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>6b4f38a09d3f4c66aea41e35c6696604</sys_id>
+        <sys_metadata>d6269fc81b47a1904c3477f58d4bcb8a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_triazin_meta_data.admin</sys_name>
+        <sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package>
+        <sys_parent display_value="">8a269fc81b47a1904c3477f58d4bcb52</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_scope_delete display_value="">0fc773c1843d45a6815f40a40580bfc1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_d6269fc81b47a1904c3477f58d4bcb8a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_d6269fc81b47a1904c3477f58d4bcb8a">9e269fc81b47a1904c3477f58d4bcb8e</sys_update_version>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-05-22 07:17:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-05-17 12:13:39</sys_created_on>
+        <sys_id>fa6036aa1bb229504c3477f58d4bcbdd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_controller_configuration_details.admin</sys_name>
+        <sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_security_acl display_value="u_controller_configuration_details">726036aa1bb229504c3477f58d4bcbd9</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_fa6036aa1bb229504c3477f58d4bcbdd</sys_update_name>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-05-17 12:44:18</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</application>
+        <file_path/>
+        <instance_id>878a1230dbb4c78c7e55d5b0cf9619b3</instance_id>
+        <instance_name>cognizantdemo8</instance_name>
+        <name>sys_security_acl_role_fa6036aa1bb229504c3477f58d4bcbdd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>2042240</sys_created_by><sys_created_on>2023-05-17 12:13:39</sys_created_on><sys_id>fa6036aa1bb229504c3477f58d4bcbdd</sys_id><sys_mod_count>1</sys_mod_count><sys_name>u_controller_configuration_details.admin</sys_name><sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package><sys_policy/><sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope><sys_security_acl display_value="u_controller_configuration_details">726036aa1bb229504c3477f58d4bcbd9</sys_security_acl><sys_update_name>sys_security_acl_role_fa6036aa1bb229504c3477f58d4bcbdd</sys_update_name><sys_updated_by>2042240</sys_updated_by><sys_updated_on>2023-05-17 12:44:18</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1410103758</payload_hash>
+        <record_name>u_controller_configuration_details.admin</record_name>
+        <reverted_from/>
+        <source>7971ae3cdb700300ce095cb3dc9619c2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-05-17 12:44:18</sys_created_on>
+        <sys_id>8c777a2e1bf229504c3477f58d4bcb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18829bd67c60000001</sys_recorded_at>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-05-17 12:44:18</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>44777a2ef5f22950b5e8a61ae235b297</update_guid>
+        <update_guid_history>44777a2ef5f22950b5e8a61ae235b297:-1410103758,fa6036aaa4b22950150aa7fd0f4dbae0:-805079771</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2023-05-19 04:43:49">19ccf4df1bf22d50fd68631abc4bcbe6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-05-19 11:43:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>160ae924c5d845d9837a1d52bb9885f9</sys_id>
+        <sys_metadata>fa6036aa1bb229504c3477f58d4bcbdd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_controller_configuration_details.admin</sys_name>
+        <sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package>
+        <sys_parent display_value="">726036aa1bb229504c3477f58d4bcbd9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_scope_delete display_value="">0fc773c1843d45a6815f40a40580bfc1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_fa6036aa1bb229504c3477f58d4bcbdd</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_fa6036aa1bb229504c3477f58d4bcbdd">8c777a2e1bf229504c3477f58d4bcb97</sys_update_version>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-05-19 11:43:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

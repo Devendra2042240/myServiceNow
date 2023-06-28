@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="26662c3e1b43e1d04c3477f58d4bcb55" label="Vendor Details Firewall" max_length="40" name="u_vendor_details_firewall" type="collection">
+        <element label="Criteria" max_length="500" name="u_criteria" type="string"/>
+        <element label="Features" max_length="500" name="u_features" type="string"/>
+        <element label="Managed Service" max_length="500" name="u_managed_service" type="string"/>
+        <element label="Vendor" max_length="500" name="u_vendor" type="string"/>
+    </element>
+</database>

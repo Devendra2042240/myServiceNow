@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="56c389d31b762d50fd68631abc4bcbc0" extends="cmdb_ci_ni_telco_equipment" label="Configuration Controller Details" max_length="40" name="u_configuration_controller_details" type="collection">
+        <element label="Controller Name" max_length="100" name="u_controller_name" type="string"/>
+        <element label="Password" max_length="100" name="u_password" type="string"/>
+        <element label="Port" max_length="100" name="u_port" type="string"/>
+        <element label="Username" max_length="100" name="u_username" type="string"/>
+    </element>
+</database>

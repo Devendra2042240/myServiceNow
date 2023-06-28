@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e3ad17cc1b87a1904c3477f58d4bcbc8" extends="cmdb_ci_ni_telco_equipment" label="Triaging Meta Data" max_length="40" name="u_triaging_meta_data" type="collection">
+        <element label="API Call" max_length="100" name="u_api_call" type="string"/>
+        <element label="Corrective Action" max_length="100" name="u_corrective_action" type="string"/>
+        <element label="Order" max_length="100" name="u_order" type="string"/>
+        <element label="Parameters" max_length="100" name="u_parameters" type="string"/>
+        <element label=" Problem Area" max_length="100" name="u_problem_area" type="string"/>
+        <element label="REST Template" max_length="100" name="u_rest_template" type="string"/>
+        <element label="Workflow Steps" max_length="100" name="u_workflow_steps" type="string"/>
+    </element>
+</database>

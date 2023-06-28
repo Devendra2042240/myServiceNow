@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="26faa7081b4ba1904c3477f58d4bcb84" sys_domain="global" table="u_triaging_meta_data" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-22 08:20:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b2faa7081b4ba1904c3477f58d4bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="u_triaging_meta_data" name="u_triaging_meta_data" sys_domain="global" view="Default view">26faa7081b4ba1904c3477f58d4bcb84</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="u_triaging_meta_data" sys_domain="global" view="Default view">7efaa7081b4ba1904c3477f58d4bcba6</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-22 08:20:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-22 08:20:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6faa7081b4ba1904c3477f58d4bcba6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="u_triaging_meta_data" name="u_triaging_meta_data" sys_domain="global" view="Default view">26faa7081b4ba1904c3477f58d4bcb84</sys_ui_form>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="u_triaging_meta_data" sys_domain="global" view="Default view">a6faa7081b4ba1904c3477f58d4bcb86</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-22 08:20:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>u_triaging_meta_data</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-22 08:20:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>26faa7081b4ba1904c3477f58d4bcb84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_triaging_meta_data</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+            <sys_update_name>sys_ui_form_sections_26faa7081b4ba1904c3477f58d4bcb84</sys_update_name>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-22 08:20:23</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

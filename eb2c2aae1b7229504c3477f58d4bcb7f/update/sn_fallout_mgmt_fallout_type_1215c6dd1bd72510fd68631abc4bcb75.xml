@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_fallout_mgmt_fallout_type">
+    <sn_fallout_mgmt_fallout_type action="INSERT_OR_UPDATE">
+        <description>Plan and design fallout</description>
+        <name>Plan and design failure</name>
+        <sys_class_name>sn_fallout_mgmt_fallout_type</sys_class_name>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-06-07 08:23:54</sys_created_on>
+        <sys_id>1215c6dd1bd72510fd68631abc4bcb75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Plan and design failure</sys_name>
+        <sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name>sn_fallout_mgmt_fallout_type_1215c6dd1bd72510fd68631abc4bcb75</sys_update_name>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-06-07 08:23:54</sys_updated_on>
+    </sn_fallout_mgmt_fallout_type>
+</record_update>

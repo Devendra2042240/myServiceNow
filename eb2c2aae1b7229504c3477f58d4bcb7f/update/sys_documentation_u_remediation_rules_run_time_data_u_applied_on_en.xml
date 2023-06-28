@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_applied_on" label="Applied On" language="en" table="u_remediation_rules_run_time_data">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_applied_on</element>
+            <help/>
+            <hint/>
+            <label>Applied On</label>
+            <language>en</language>
+            <name>u_remediation_rules_run_time_data</name>
+            <plural>Applied Ons</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>2042240</sys_created_by>
+            <sys_created_on>2023-05-19 08:47:51</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Applied On</sys_name>
+            <sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+            <sys_update_name>sys_documentation_u_remediation_rules_run_time_data_u_applied_on_en</sys_update_name>
+            <sys_updated_by>2042240</sys_updated_by>
+            <sys_updated_on>2023-05-19 08:47:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

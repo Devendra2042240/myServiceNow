@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Key Attributes" section_id="696bc8221bc3a1d0fd68631abc4bcb5a" sys_domain="global" table="u_firewall_vendor_details" version="3" view="cmdb_workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-29 10:28:21</sys_created_on>
+            <sys_id>a56bc8221bc3a1d0fd68631abc4bcb5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_firewall_vendor_details" sys_domain="global" view="169d5a872300001009d5110d96bf6537">696bc8221bc3a1d0fd68631abc4bcb5a</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-29 10:28:21</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-29 10:28:21</sys_created_on>
+            <sys_id>ed6bc8221bc3a1d0fd68631abc4bcb5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_firewall_vendor_details" sys_domain="global" view="169d5a872300001009d5110d96bf6537">696bc8221bc3a1d0fd68631abc4bcb5a</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-29 10:28:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manufacturer</element>
+            <position>2</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-29 10:28:21</sys_created_on>
+            <sys_id>e16bc8221bc3a1d0fd68631abc4bcb5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_firewall_vendor_details" sys_domain="global" view="169d5a872300001009d5110d96bf6537">696bc8221bc3a1d0fd68631abc4bcb5a</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-29 10:28:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>model_id</element>
+            <position>3</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-29 10:28:21</sys_created_on>
+            <sys_id>e56bc8221bc3a1d0fd68631abc4bcb5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_firewall_vendor_details" sys_domain="global" view="169d5a872300001009d5110d96bf6537">696bc8221bc3a1d0fd68631abc4bcb5a</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-29 10:28:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-29 10:28:21</sys_created_on>
+            <sys_id>e96bc8221bc3a1d0fd68631abc4bcb5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_firewall_vendor_details" sys_domain="global" view="169d5a872300001009d5110d96bf6537">696bc8221bc3a1d0fd68631abc4bcb5a</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-29 10:28:21</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>serial_number</element>
+            <position>5</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-29 10:28:21</sys_created_on>
+            <sys_id>ed6bc8221bc3a1d0fd68631abc4bcb5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_firewall_vendor_details" sys_domain="global" view="169d5a872300001009d5110d96bf6537">696bc8221bc3a1d0fd68631abc4bcb5a</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-29 10:28:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ip_address</element>
+            <position>6</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-29 10:28:22</sys_created_on>
+            <sys_id>e16bc8221bc3a1d0fd68631abc4bcb5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_firewall_vendor_details" sys_domain="global" view="169d5a872300001009d5110d96bf6537">696bc8221bc3a1d0fd68631abc4bcb5a</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-29 10:28:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>7</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-29 10:28:22</sys_created_on>
+            <sys_id>e56bc8221bc3a1d0fd68631abc4bcb5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_firewall_vendor_details" sys_domain="global" view="169d5a872300001009d5110d96bf6537">696bc8221bc3a1d0fd68631abc4bcb5a</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-29 10:28:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-29 10:28:22</sys_created_on>
+            <sys_id>e96bc8221bc3a1d0fd68631abc4bcb5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_firewall_vendor_details" sys_domain="global" view="169d5a872300001009d5110d96bf6537">696bc8221bc3a1d0fd68631abc4bcb5a</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-29 10:28:22</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>9</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-29 10:28:22</sys_created_on>
+            <sys_id>ed6bc8221bc3a1d0fd68631abc4bcb5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_firewall_vendor_details" sys_domain="global" view="169d5a872300001009d5110d96bf6537">696bc8221bc3a1d0fd68631abc4bcb5a</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-29 10:28:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Key Attributes</caption>
+            <header>false</header>
+            <name>u_firewall_vendor_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-29 10:28:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>696bc8221bc3a1d0fd68631abc4bcb5a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_firewall_vendor_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+            <sys_update_name>sys_ui_section_696bc8221bc3a1d0fd68631abc4bcb5a</sys_update_name>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-29 10:28:21</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="CMDB Agent Workspace" name="cmdb_workspace">169d5a872300001009d5110d96bf6537</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</application>
+        <file_path/>
+        <instance_id>878a1230dbb4c78c7e55d5b0cf9619b3</instance_id>
+        <instance_name>cognizantdemo8</instance_name>
+        <name>sys_ui_section_696bc8221bc3a1d0fd68631abc4bcb5a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Key Attributes" section_id="696bc8221bc3a1d0fd68631abc4bcb5a" sys_domain="global" table="u_firewall_vendor_details" version="3" view="cmdb_workspace"><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>2211540</sys_created_by><sys_created_on>2023-05-29 10:28:21</sys_created_on><sys_id>a56bc8221bc3a1d0fd68631abc4bcb5c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_firewall_vendor_details" sys_domain="global" view="169d5a872300001009d5110d96bf6537">696bc8221bc3a1d0fd68631abc4bcb5a</sys_ui_section><sys_updated_by>2211540</sys_updated_by><sys_updated_on>2023-05-29 10:28:21</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>name</element><position>1</position><sys_created_by>2211540</sys_created_by><sys_created_on>2023-05-29 10:28:21</sys_created_on><sys_id>ed6bc8221bc3a1d0fd68631abc4bcb5c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_firewall_vendor_details" sys_domain="global" view="169d5a872300001009d5110d96bf6537">696bc8221bc3a1d0fd68631abc4bcb5a</sys_ui_section><sys_updated_by>2211540</sys_updated_by><sys_updated_on>2023-05-29 10:28:21</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>manufacturer</element><position>2</position><sys_created_by>2211540</sys_created_by><sys_created_on>2023-05-29 10:28:21</sys_created_on><sys_id>e16bc8221bc3a1d0fd68631abc4bcb5d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_firewall_vendor_details" sys_domain="global" view="169d5a872300001009d5110d96bf6537">696bc8221bc3a1d0fd68631abc4bcb5a</sys_ui_section><sys_updated_by>2211540</sys_updated_by><sys_updated_on>2023-05-29 10:28:21</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>model_id</element><position>3</position><sys_created_by>2211540</sys_created_by><sys_created_on>2023-05-29 10:28:21</sys_created_on><sys_id>e56bc8221bc3a1d0fd68631abc4bcb5d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_firewall_vendor_details" sys_domain="global" view="169d5a872300001009d5110d96bf6537">696bc8221bc3a1d0fd68631abc4bcb5a</sys_ui_section><sys_updated_by>2211540</sys_updated_by><sys_updated_on>2023-05-29 10:28:21</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>2211540</sys_created_by><sys_created_on>2023-05-29 10:28:21</sys_created_on><sys_id>e96bc8221bc3a1d0fd68631abc4bcb5d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_firewall_vendor_details" sys_domain="global" view="169d5a872300001009d5110d96bf6537">696bc8221bc3a1d0fd68631abc4bcb5a</sys_ui_section><sys_updated_by>2211540</sys_updated_by><sys_updated_on>2023-05-29 10:28:21</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>serial_number</element><position>5</position><sys_created_by>2211540</sys_created_by><sys_created_on>2023-05-29 10:28:21</sys_created_on><sys_id>ed6bc8221bc3a1d0fd68631abc4bcb5d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_firewall_vendor_details" sys_domain="global" view="169d5a872300001009d5110d96bf6537">696bc8221bc3a1d0fd68631abc4bcb5a</sys_ui_section><sys_updated_by>2211540</sys_updated_by><sys_updated_on>2023-05-29 10:28:21</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>ip_address</element><position>6</position><sys_created_by>2211540</sys_created_by><sys_created_on>2023-05-29 10:28:22</sys_created_on><sys_id>e16bc8221bc3a1d0fd68631abc4bcb5e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_firewall_vendor_details" sys_domain="global" view="169d5a872300001009d5110d96bf6537">696bc8221bc3a1d0fd68631abc4bcb5a</sys_ui_section><sys_updated_by>2211540</sys_updated_by><sys_updated_on>2023-05-29 10:28:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>location</element><position>7</position><sys_created_by>2211540</sys_created_by><sys_created_on>2023-05-29 10:28:22</sys_created_on><sys_id>e56bc8221bc3a1d0fd68631abc4bcb5e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_firewall_vendor_details" sys_domain="global" view="169d5a872300001009d5110d96bf6537">696bc8221bc3a1d0fd68631abc4bcb5a</sys_ui_section><sys_updated_by>2211540</sys_updated_by><sys_updated_on>2023-05-29 10:28:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>8</position><sys_created_by>2211540</sys_created_by><sys_created_on>2023-05-29 10:28:22</sys_created_on><sys_id>e96bc8221bc3a1d0fd68631abc4bcb5e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_firewall_vendor_details" sys_domain="global" view="169d5a872300001009d5110d96bf6537">696bc8221bc3a1d0fd68631abc4bcb5a</sys_ui_section><sys_updated_by>2211540</sys_updated_by><sys_updated_on>2023-05-29 10:28:22</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>9</position><sys_created_by>2211540</sys_created_by><sys_created_on>2023-05-29 10:28:22</sys_created_on><sys_id>ed6bc8221bc3a1d0fd68631abc4bcb5e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_firewall_vendor_details" sys_domain="global" view="169d5a872300001009d5110d96bf6537">696bc8221bc3a1d0fd68631abc4bcb5a</sys_ui_section><sys_updated_by>2211540</sys_updated_by><sys_updated_on>2023-05-29 10:28:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Key Attributes</caption><header>false</header><name>u_firewall_vendor_details</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>2211540</sys_created_by><sys_created_on>2023-05-29 10:28:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>696bc8221bc3a1d0fd68631abc4bcb5a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_firewall_vendor_details</sys_name><sys_overrides/><sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package><sys_policy/><sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope><sys_update_name>sys_ui_section_696bc8221bc3a1d0fd68631abc4bcb5a</sys_update_name><sys_updated_by>2211540</sys_updated_by><sys_updated_on>2023-05-29 10:28:21</sys_updated_on><sys_user/><title>false</title><view display_value="CMDB Agent Workspace" name="cmdb_workspace">169d5a872300001009d5110d96bf6537</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>266944264</payload_hash>
+        <record_name>Firewall Vendor Details</record_name>
+        <reverted_from/>
+        <source>01f7613c1b0ba590fd68631abc4bcb4f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-05-29 10:28:22</sys_created_on>
+        <sys_id>a56bc8221bc3a1d0fd68631abc4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188670d41be0000001</sys_recorded_at>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-05-29 10:28:22</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>216bc82241c3a1d010eeb36ce43f4361</update_guid>
+        <update_guid_history>216bc82241c3a1d010eeb36ce43f4361:266944264</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-06-09 16:22:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>240addabd8aa462a9ed75ebfe4cf28a9</sys_id>
+        <sys_metadata>696bc8221bc3a1d0fd68631abc4bcb5a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Key Attributes</sys_name>
+        <sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package>
+        <sys_parent display_value="">0ed4cc621b83a1d0fd68631abc4bcb3d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_scope_delete display_value="">0fc773c1843d45a6815f40a40580bfc1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_696bc8221bc3a1d0fd68631abc4bcb5a</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_696bc8221bc3a1d0fd68631abc4bcb5a">a56bc8221bc3a1d0fd68631abc4bcb61</sys_update_version>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-06-09 16:22:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

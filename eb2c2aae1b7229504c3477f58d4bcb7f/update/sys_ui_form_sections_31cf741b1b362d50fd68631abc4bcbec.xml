@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="31cf741b1b362d50fd68631abc4bcbec" sys_domain="global" table="u_correlation_rules_meta_data" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-19 11:56:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>82cfb81b1b362d50fd68631abc4bcb2f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="u_correlation_rules_meta_data" name="u_correlation_rules_meta_data" sys_domain="global" view="169d5a872300001009d5110d96bf6537">31cf741b1b362d50fd68631abc4bcbec</sys_ui_form>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_correlation_rules_meta_data" sys_domain="global" view="169d5a872300001009d5110d96bf6537">cecf741b1b362d50fd68631abc4bcbee</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-19 11:56:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-19 11:56:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ecfb81b1b362d50fd68631abc4bcb52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="u_correlation_rules_meta_data" name="u_correlation_rules_meta_data" sys_domain="global" view="169d5a872300001009d5110d96bf6537">31cf741b1b362d50fd68631abc4bcbec</sys_ui_form>
+            <sys_ui_section caption="More Attributes" display_value="More Attributes" name="u_correlation_rules_meta_data" sys_domain="global" view="169d5a872300001009d5110d96bf6537">4ecfb81b1b362d50fd68631abc4bcb2f</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-19 11:56:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>u_correlation_rules_meta_data</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-19 11:56:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31cf741b1b362d50fd68631abc4bcbec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_correlation_rules_meta_data</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+            <sys_update_name>sys_ui_form_sections_31cf741b1b362d50fd68631abc4bcbec</sys_update_name>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-19 11:56:57</sys_updated_on>
+            <sys_user/>
+            <view display_value="CMDB Agent Workspace" name="cmdb_workspace">169d5a872300001009d5110d96bf6537</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

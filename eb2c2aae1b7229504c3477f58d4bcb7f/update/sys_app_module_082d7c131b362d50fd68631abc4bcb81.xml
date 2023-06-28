@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Correlation Rules Meta Data">c82d3c131b362d50fd68631abc4bcbf4</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Correlation Rules Meta Data</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>u_correlation_rules_meta_data</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>u_correlation_rules_meta_data_user</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>2211540</sys_created_by>
+        <sys_created_on>2023-05-19 11:45:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>082d7c131b362d50fd68631abc4bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Correlation Rules Meta Data</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name>sys_app_module_082d7c131b362d50fd68631abc4bcb81</sys_update_name>
+        <sys_updated_by>2211540</sys_updated_by>
+        <sys_updated_on>2023-05-19 11:45:21</sys_updated_on>
+        <timeline_page/>
+        <title>Correlation Rules Meta Data</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

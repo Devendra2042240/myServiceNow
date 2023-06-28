@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="d5fa27081b4ba1904c3477f58d4bcb8c" sys_domain="global" table="u_triaging_meta_data" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-22 08:20:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3dfa67081b4ba1904c3477f58d4bcbf2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="u_triaging_meta_data" name="u_triaging_meta_data" sys_domain="global" view="169d5a872300001009d5110d96bf6537">d5fa27081b4ba1904c3477f58d4bcb8c</sys_ui_form>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_triaging_meta_data" sys_domain="global" view="169d5a872300001009d5110d96bf6537">2dfa27081b4ba1904c3477f58d4bcb8f</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-22 08:20:19</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-22 08:20:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5efaa7081b4ba1904c3477f58d4bcb09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="u_triaging_meta_data" name="u_triaging_meta_data" sys_domain="global" view="169d5a872300001009d5110d96bf6537">d5fa27081b4ba1904c3477f58d4bcb8c</sys_ui_form>
+            <sys_ui_section caption="More Attributes" display_value="More Attributes" name="u_triaging_meta_data" sys_domain="global" view="169d5a872300001009d5110d96bf6537">b5fa67081b4ba1904c3477f58d4bcbf3</sys_ui_section>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-22 08:20:21</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>u_triaging_meta_data</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-22 08:20:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d5fa27081b4ba1904c3477f58d4bcb8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_triaging_meta_data</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d5fa27081b4ba1904c3477f58d4bcb8c</sys_update_name>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-22 08:20:18</sys_updated_on>
+            <sys_user/>
+            <view display_value="CMDB Agent Workspace" name="cmdb_workspace">169d5a872300001009d5110d96bf6537</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

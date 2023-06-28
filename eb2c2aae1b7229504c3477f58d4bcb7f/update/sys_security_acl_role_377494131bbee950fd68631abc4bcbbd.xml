@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-05-19 08:47:50</sys_created_on>
+        <sys_id>377494131bbee950fd68631abc4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_remediation_rules_run_time_data.u_remediation_rules_run_time_data_user</sys_name>
+        <sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_security_acl display_value="u_remediation_rules_run_time_data">eb7494131bbee950fd68631abc4bcbb8</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_377494131bbee950fd68631abc4bcbbd</sys_update_name>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-05-19 08:47:50</sys_updated_on>
+        <sys_user_role display_value="u_remediation_rules_run_time_data_user" name="u_remediation_rules_run_time_data_user">5274d0131bbee950fd68631abc4bcb56</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

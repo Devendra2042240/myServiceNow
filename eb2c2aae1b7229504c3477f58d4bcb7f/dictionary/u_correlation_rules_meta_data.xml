@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2dec70131b362d50fd68631abc4bcb24" extends="cmdb_ci_ni_telco_equipment" label="Correlation Rules Meta Data" max_length="40" name="u_correlation_rules_meta_data" type="collection">
+        <element label="Correlation Rule" max_length="100" name="u_correlation_rule" type="string"/>
+        <element label="Metric 1" max_length="100" name="u_metric_1" type="string"/>
+        <element label="Metric 2" max_length="100" name="u_metric_2" type="string"/>
+        <element label="Remarks" max_length="100" name="u_remarks" type="string"/>
+    </element>
+</database>

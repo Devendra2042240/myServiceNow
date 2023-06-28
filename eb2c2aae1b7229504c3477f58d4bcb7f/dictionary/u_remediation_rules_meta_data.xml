@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3281855f1b362d50fd68631abc4bcb7c" extends="cmdb_ci_ni_telco_equipment" label="Remediation Rules Meta Data" max_length="40" name="u_remediation_rules_meta_data" type="collection">
+        <element label="Corrective Action" max_length="100" name="u_corrective_action" type="string"/>
+        <element label="Issues" max_length="100" name="u_issues" type="string"/>
+    </element>
+</database>

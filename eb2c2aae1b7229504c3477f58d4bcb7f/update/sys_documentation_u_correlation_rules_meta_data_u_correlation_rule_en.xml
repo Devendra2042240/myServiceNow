@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_correlation_rule" label="Correlation Rule" language="en" table="u_correlation_rules_meta_data">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_correlation_rule</element>
+            <help/>
+            <hint/>
+            <label>Correlation Rule</label>
+            <language>en</language>
+            <name>u_correlation_rules_meta_data</name>
+            <plural>Correlation Rules</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-19 11:53:09</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Correlation Rule</sys_name>
+            <sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+            <sys_update_name>sys_documentation_u_correlation_rules_meta_data_u_correlation_rule_en</sys_update_name>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-19 11:53:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

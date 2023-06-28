@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Remediation Rules Run Time Data​</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>u_remediation_rules_run_time_data</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>2042240</sys_created_by>
+        <sys_created_on>2023-05-19 08:47:48</sys_created_on>
+        <sys_id>21f3d4df1b7ee950fd68631abc4bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Remediation Rules Run Time Data​</sys_name>
+        <sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+        <sys_update_name>sys_db_object_21f3d4df1b7ee950fd68631abc4bcbe6</sys_update_name>
+        <sys_updated_by>2042240</sys_updated_by>
+        <sys_updated_on>2023-05-19 08:47:48</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="u_remediation_rules_run_time_data_user" name="u_remediation_rules_run_time_data_user">5274d0131bbee950fd68631abc4bcb56</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

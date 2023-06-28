@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="sys_class_name" label="Class" language="en" table="u_configuration_controller_details">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>sys_class_name</element>
+            <help/>
+            <hint/>
+            <label>Class</label>
+            <language>en</language>
+            <name>u_configuration_controller_details</name>
+            <plural>Class</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>2211540</sys_created_by>
+            <sys_created_on>2023-05-19 12:15:34</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Class</sys_name>
+            <sys_package display_value="Controller Configuration" source="eb2c2aae1b7229504c3477f58d4bcb7f">eb2c2aae1b7229504c3477f58d4bcb7f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Controller Configuration">eb2c2aae1b7229504c3477f58d4bcb7f</sys_scope>
+            <sys_update_name>sys_documentation_u_configuration_controller_details_sys_class_name_en</sys_update_name>
+            <sys_updated_by>2211540</sys_updated_by>
+            <sys_updated_on>2023-05-19 12:15:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
